@@ -1,0 +1,54 @@
+:root{
+    --fontSizeText: "Roboto", sans-serif;
+    --fontSizeTitle: "Libre Baskerville", serif;
+}
+  *{
+    box-sizing: border-box;
+  }
+
+  html, body {
+    height: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
+
+  
+a{
+    text-decoration: none;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+ul li{
+    list-style: none;
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 1157px;
+    margin: 0 auto;
+    padding: 0 27px 0 16px;
+}
+
+.title{
+    font-family: var(--fontSizeTitle);
+    font-weight: 400;
+}
+
+.text{
+    font-family: var(--fontSizeText);
+}
+
+
+
+.btn {
+  padding: 20px 40px;
+  font-family: var(--fontSizeText);
+  font-weight: 700;
+  font-size: clamp(0.625rem, 0.569rem + 0.255vi, 0.875rem);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
